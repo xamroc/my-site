@@ -1,0 +1,29 @@
+body {
+  text-align: center;
+  background: url("../images/taipei-bg.jpg");
+  background-size: cover;
+  background-position: center;
+  color: #FFF;
+  font-family: helvetica;
+}
+img {
+  border: 7px solid #333333;
+  border-radius: 100px;
+}
+span {
+  font-size: 22px;
+  padding: 5px;
+  margin: 5px;
+  background: #000009;
+  border-radius: 100px;
+  color: #FFF;
+}
+input {
+  border: 0;
+  padding: 10px;
+  font-size: 18px;
+}
+input[type="submit"] {
+  background: red;
+  color: white;
+}
