@@ -6,6 +6,9 @@ body {
   color: #FFF;
   font-family: helvetica;
 }
+a {
+  color: #FFF;
+}
 img {
   border: 7px solid rgba(0, 0, 0, 0.5);
   border-radius: 100px;
