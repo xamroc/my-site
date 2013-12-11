@@ -1,7 +1,9 @@
 body {
   text-align: center;
   background: url("../img/taipei-bg.jpg");
+  background-attachment: fixed;
   background-size: cover;
+  background-repeat: no-repeat;
   background-position: center;
   color: #FFF;
   font-family: helvetica;
