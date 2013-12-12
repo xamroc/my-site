@@ -1,9 +1,33 @@
 body {
-  background: url("../img/taipei-bg.jpg");
+  background: url("../img/taipei-bg.jpg") top center;
   background-attachment: fixed;
   background-size: cover;
   background-repeat: repeat;
   background-position: center;
   color: #FFF;
   font-family: helvetica;
+}
+img {
+	height: 100%;
+	width: 100%;
+}
+.duck-container {
+	width: 84px;
+	height: 63px;
+	animation: float 5s infinite;
+	-webkit-animation: float 5s infinite;
+	-moz-animation: float 5s infinite;
+}
+
+@keyframes float {
+	0%   {transform: rotateZ(10deg);}
+	50% {transform: rotateZ(-10deg);}
+	100% {transform: rotateZ(10deg);}
+}
+
+@-webkit-keyframes float /* Safari and Chrome */
+{
+	0%   {-webkit-transform: rotateZ(10deg);}
+	50% {-webkit-transform: rotateZ(-10deg);}
+	100% {-webkit-transform: rotateZ(10deg);}
 }
